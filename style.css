@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	border:0;
+}
+.sec_perfil{
+	width: 100vw;
+	height: 100vh;
+	background-color: #b59797b0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+	
+.sec_perfil_img{
+	height: 300px;
+	border-radius: 50%;
+	margin: 20px;
+}	
+@media (max-width: 640px){
+	.sec_perfil_img{
+		height: 30vh;
+	}
+}
+.sec_perfil_h1{
+	font-size: 50px;
+	margin: 20px;
+}
+@media (max-width: 640px){
+	.sec_perfil_h1{
+		font-size: 30px;
+	}
+}
+.sec_perfil_p{
+	font-size: 20px;
+	margin: 20px;
+}
+@media (max-width: 640px){
+	.sec_perfil_p{
+		font-size: 21px;
+		text-align: center;
+	}
+}
+.logos_imgs{
+	height: 90px;
+	padding-right: 20px;
+}
+@media (max-width: 640px){
+	.logos_imgs{
+		height: 70px;
+	}
+}
